@@ -229,8 +229,8 @@ def sanitiseInside(string):
     return string1
 
 #do everything
-username = "BDSCBenjaminkee" #input('Username/Email: ')
-passwrd = "!28DoVe66@" #input('Password: ')
+username = input('Username/Email: ')
+passwrd = input('Password: ')
 print('         ')
 ed = Edu(username,passwrd)
 ed.login()
